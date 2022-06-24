@@ -32,10 +32,10 @@ every one can use this bot within **{sizeof_fmt(QUOTA)} of quota for every {int(
 
 4. You can optionally choose to become 'VIP' user if you need more traffic. Type /vip for more information.
 
-5. Source code for this bot will always stay open, here-> https://github.com/tgbot-collection/ytdlbot
+5. Source code for this bot will always stay open, here-> @nautaiu
     """ if ENABLE_VIP else "Help text"
 
-    about = "YouTube-DL by @BennyThink. Open source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "YouTube-DL by @nautaii"
 
     terms = f"""
 1. You can use this service, free of charge, {sizeof_fmt(QUOTA)} per {int(EX / 3600)} hours.
