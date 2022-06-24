@@ -19,7 +19,7 @@ from utils import get_func_queue
 
 
 class BotText:
-    start = "hola broo Download bot. Type /help for more information."
+    start = "🤗 BIENVENIDO AL BOT DE @nautaii _Para ayudarte usa /help🤗"
 
     help = f"""
 1. This bot should works at all times. If it doesn't, try to send the link again or DM @BennyThink
@@ -33,9 +33,9 @@ every one can use this bot within **{sizeof_fmt(QUOTA)} of quota for every {int(
 4. You can optionally choose to become 'VIP' user if you need more traffic. Type /vip for more information.
 
 5. Source code for this bot will always stay open, here-> @nautaiu
-    """ if ENABLE_VIP else "Help text"
+    """ if ENABLE_VIP else "DIME Q BUSCO😊?"
 
-    about = "YouTube-DL by @nautaii"
+    about = "BOT DESAROLLADO POR 💎@nautaii💎 para descargar videos"
 
     terms = f"""
 1. You can use this service, free of charge, {sizeof_fmt(QUOTA)} per {int(EX / 3600)} hours.
